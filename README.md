@@ -1,11 +1,16 @@
 # DM-intro-to-hosting
 basic hosting options (see branches), as presented to DevMountain bootcamp students
 
-### Firebase
-This branch goes over instructions for deploying a project using your Firebase account. Official instructions here: https://firebase.google.com/docs/hosting/deploying. NOTE: you can use Firebase hosting regardless of whether you use a Firebase database.
+### Heroku
+This branch goes over instructions for deploying a project using your Heroku account. Official instructions here: https://devcenter.heroku.com/start.
 
-1. navigate to the `Hosting` panel of your project's dashboard and click `Get Started`
-2. `npm install -g firebase-tools`
-3. `firebase init` (creates firebase.json file, similar to how npm init creates package.json)
-4. `firebase deploy`
-5. once the deploy process completes successfully, navigate to `https://<name-of-firebase-app>.firebaseapp.com` and behold
+1. create Heroku account and login
+2. install Heroku cli for your OS
+3. `heroku login`
+4. cd to repo
+5. `heroku create` (this will create a new heroku app and show you its git url)
+6. `git remote add heroku <heroku-git-url>`
+7. make sure port is `80` and all changes are committed
+8. `git push heroku master`
+9. `heroku open`
+10. add a database: https://devcenter.heroku.com/articles/getting-started-with-nodejs#provision-a-database

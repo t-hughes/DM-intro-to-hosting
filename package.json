@@ -1,0 +1,23 @@
+{
+  "name": "dm-intro-to-hosting-with-heroku",
+  "version": "1.0.0",
+  "description": "basic hosting options (see branches), as presented to DevMountain bootcamp students",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkelrd/DM-intro-to-hosting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikkelrd/DM-intro-to-hosting/issues"
+  },
+  "homepage": "https://github.com/mikkelrd/DM-intro-to-hosting#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
